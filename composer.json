@@ -1,7 +1,6 @@
 {
 	"name": "marcioarp/php-api-ml",
 	"type": "library",	
-	"version":"1.0",
 	"keywords": [
 		"PHP",
 		"API",
@@ -25,7 +24,7 @@
 	"minimum-stability":"dev",
 	"autoload" : {
 		"psr-4":{
-			"marcioarp\\php-api-ml\\":["src/marcioarp/php-api-ml"]
+			"php_api_ml\\":["src/"]
 		}
 	}
 }
