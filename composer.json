@@ -1,5 +1,6 @@
 {
 	"name": "marcioarp/php-api-ml",
+	"version": "1.0.0",
 	"type": "library",	
 	"keywords": [
 		"PHP",
