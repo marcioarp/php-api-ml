@@ -48,7 +48,7 @@ class APIML
 		$obj = [];
 		for ($i=0;$i<sizeof($this->ml);$i++) 
 		{
-			$perc = $this->_comparePerc($txt, $this->ml[$i]['txt']);
+			$perc = $this->_comparePerc(substr($txt,0,strlen($this->ml[$i]['txt'])), $this->ml[$i]['txt']);
 			if ($perc > $perca) {
 				$obj = $this->ml[$i];
 				$perca = $perc;

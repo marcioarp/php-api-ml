@@ -15,4 +15,4 @@ $arr = [
 
 $a->learn($arr);
 
-var_dump($a->process('perceber pontas no mictorio'));
+var_dump($a->process('mictorio pontas carga '));
